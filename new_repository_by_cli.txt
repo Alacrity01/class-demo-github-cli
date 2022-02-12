@@ -1,0 +1,26 @@
+mkdir class-demo-github-cli
+cd class-demo-github-cli
+git init -b main
+touch .gitignore
+git add .
+git commit -m "first commit"
+gh repo create
+[follow prompts, chooosing these options]
+	Push an existing local repository to GitHub
+	.
+	class-demo-github-cli
+	[write your own description]
+	Public
+	[should see "✓ Created repository Alacrity01/class-demo-github-cli on GitHub"]
+	Yes
+	origin
+	[should see "✓ Added remote git@github.com:Alacrity01/class-demo-github-cli.git"]
+	Yes
+	[should see "✓ Pushed commits to git@github.com:Alacrity01/class-demo-github-cli.git"]
+
+[check with command git status]
+git status
+	[should see:
+		On branch main
+		Your branch is up to date with 'origin/main'.
+	]
