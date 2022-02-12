@@ -24,3 +24,20 @@ git status
 		On branch main
 		Your branch is up to date with 'origin/main'.
 	]
+
+[add some files, make some changes, write some code]
+
+git add .
+git commit -m "added some instructions for gh repo create by cli"
+git push -u origin main
+	[should see something like:
+		Enumerating objects: 4, done.
+		Counting objects: 100% (4/4), done.
+		Delta compression using up to 12 threads
+		Compressing objects: 100% (3/3), done.
+		Writing objects: 100% (3/3), 710 bytes | 710.00 KiB/s, done.
+		Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+		To github.com:Alacrity01/class-demo-github-cli.git
+		ae0f557..6151f0e  main -> main
+		Branch 'main' set up to track remote branch 'main' from 'origin'.
+	]
